@@ -1,0 +1,186 @@
+@font-face
+{
+    font-family: 'barlowSemiBold';
+    src: url("fonts/Barlow-SemiBold.ttf");
+}
+
+
+.container
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,1fr);
+    grid-template-rows: repeat(105, 3em);
+
+}
+.header
+{
+    background: aliceblue;
+    margin-right: 0;
+}
+
+
+.menu-toggle {
+    display: block;
+    width: 2em;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 14;
+    grid-column-end: -1;
+    top: 5em;
+    right: 4em;
+    cursor: pointer;
+ }
+ 
+ .menu-toggle div {
+    width: 100%;
+    height: 0.24em;
+    background: #141415;
+    margin: 0.36em ;
+    transition: all 0.3s ease-in-out;
+ }
+.logo
+{
+    background-size: 100%;
+    grid-column-end: 7;
+    margin-top: 0.8em;
+}
+.nav-bar
+{
+           display: none;
+}
+.main-content 
+{
+    
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(100,3em);
+    
+}
+.banniere
+{
+
+    background: none;
+}
+.items-1 ,.items-3
+{
+    color: gray;
+}
+.items-2 
+{
+     font-size: 4em;
+     font-family: 'barlowSemiBold';
+     margin: 0.2em 0 0.7em;
+     color: black;
+}
+.bouton
+{
+    grid-row-start: 14;
+    grid-row-end: 17;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.9em;
+    margin-top: 3.5em;
+}
+.bouton-1 , .bouton-2
+{
+    width: 10em;
+    padding: 0.8em ;
+}
+.bouton-2
+{
+    color: #ee5610;
+}
+.image2Phones
+{
+    grid-column-start: 2;
+    grid-row-start: 20;
+    grid-row-end: 42;
+    border-bottom: solid gray;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-size: contain;
+  
+}
+.imagePhoneGauche
+{
+    grid-row-start: 39;
+    grid-row-end: 70;
+    border: none;
+}
+.contenu-one , .imageLogin 
+{
+    grid-column-start: 3;
+    grid-column-end: -1;
+}
+.contenu-one
+{
+    grid-row-start: 2;
+    grid-row-end: 17;
+    text-align: center;
+}
+.contenu-1 ,.contenu-4 , .contenu-5
+{
+    font-size: 2.5em;
+
+}
+.contenu-2 , .contenu-3
+{
+    font-size: 2.9em;
+}
+.imageLogin 
+{
+    grid-row-start: 15;
+    grid-row-end: 29;
+}
+
+.imagePhoneDroite
+{
+    grid-row-start: 70;
+    grid-row-end: 98;
+    text-align: center;
+}
+.contenu-two , .imageDelices
+{
+    grid-column-start: 3;
+    grid-column-end: -1;
+}
+.imageDelices 
+{
+    grid-row-start: 15;
+    grid-row-end: 31;
+}
+.contenu-two 
+{
+    grid-row-start: 2;
+    grid-row-end: 15;
+}
+.footer
+{
+    grid-row-start: 103;
+    grid-row-end: 105;
+}
+.logo-footer
+{
+   background: none;
+}
+.copy
+{
+    display: none;
+}
+.icon
+{
+    grid-column-start: 7;
+    grid-column-end: 12;
+}
+
+
+
+
+
+
+
+
+
+
+

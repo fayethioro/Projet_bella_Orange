@@ -1,0 +1,81 @@
+
+.description
+{
+   grid-column-start: 1; 
+   grid-column-end: 15;
+   padding-left: 0.7em;
+}
+
+
+.items-2 
+{
+     font-size: 2.6em;     
+}
+.items-1 ,.items-3
+{
+    font-size: 1.6em;
+}
+
+.bouton
+{
+    grid-row-start: 9;
+    grid-row-end: 13;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.9em;
+    margin-top: 3.5em;
+}
+
+.image2Phones
+{
+    grid-column-start: 1;
+    grid-row-start: 13;
+    grid-row-end: 24;
+    background-size: contain;
+}
+.imagePhoneGauche
+{
+    grid-row-start: 22;
+    grid-row-end: 70;
+}
+.contenu-one
+{
+    grid-row-start: 2;
+    grid-row-end: 15;
+    text-align: center;
+}
+.titre
+{
+    font-size: 1.9em;
+}
+.contenu-1 ,.contenu-4 , .contenu-5
+{
+    font-size: 1.2em;
+
+}
+.contenu-2 , .contenu-3
+{
+    font-size: 1.9em;
+}
+.imageLogin 
+{
+    grid-row-start: 10;
+    grid-row-end: 39;
+    background-size: contain;
+}
+.imagePhoneDroite
+{
+    grid-row-start: 40;
+    grid-row-end: 58;
+}
+.imageDelices 
+{
+    grid-row-start: 11;
+    grid-row-end: 25;
+    background-size: contain;
+}
+.footer
+{
+    grid-row-start: 60;
+    grid-row-end: 62;
+}
