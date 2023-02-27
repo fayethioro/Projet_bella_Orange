@@ -170,7 +170,7 @@ html
 }
 .bouton-1:hover
 {
-    border: solid 0.1em;
+    border: solid 0.1em var(--couleurBlanche-color);
     background: transparent;
     color: var(--couleurOrange-color);
 }
