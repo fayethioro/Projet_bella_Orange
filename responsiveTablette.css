@@ -9,7 +9,7 @@
 {
     display: grid;
     grid-template-columns:repeat(auto-fill,1fr);
-    grid-template-rows: repeat(105, 3em);
+    grid-template-rows: repeat(106, 3em);
 
 }
 .header
@@ -24,10 +24,9 @@
     width: 2em;
     grid-row-start: 2;
     grid-row-end: 4;
-    grid-column-start: 14;
+    grid-column-start: 13;
     grid-column-end: -1;
     top: 5em;
-    right: 4em;
     cursor: pointer;
  }
  
@@ -40,7 +39,6 @@
  }
 .logo
 {
-    background-size: 100%;
     grid-column-end: 7;
     margin-top: 0.8em;
 }
@@ -67,7 +65,7 @@
 }
 .items-2 
 {
-     font-size: 4em;
+     font-size: 4rem;
      font-family: 'barlowSemiBold';
      margin: 0.2em 0 0.7em;
      color: black;
@@ -78,8 +76,8 @@
     grid-row-end: 17;
     flex-direction: column;
     gap: 1em;
-    font-size: 1.9em;
-    margin-top: 3.5em;
+    font-size: 1.9rem;
+    margin-top: 3.5rem;
 }
 .bouton-1 , .bouton-2
 {
@@ -121,12 +119,12 @@
 }
 .contenu-1 ,.contenu-4 , .contenu-5
 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 
 }
 .contenu-2 , .contenu-3
 {
-    font-size: 2.9em;
+    font-size: 2.9rem;
 }
 .imageLogin 
 {
@@ -173,7 +171,16 @@
     grid-column-start: 7;
     grid-column-end: 12;
 }
-
+.slogan
+{
+    grid-row-start: 105;
+    grid-row-end: 106;
+    grid-column-start: 2;
+    grid-column-end: -1;
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--fontPonpins-font-family);
+}
 
 
 

@@ -358,6 +358,10 @@ body
     align-items: center;
    justify-content: center;
 }
+.slogan
+{
+    font: none;
+}
 
 @media  screen and (max-width:  1780px)
 {

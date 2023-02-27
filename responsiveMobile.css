@@ -1,4 +1,24 @@
+.container
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,1fr);
+    grid-template-rows: repeat(64, 3em);
 
+}
+.logo
+{
+    grid-column-end: 6;
+    margin-top: 0.8em;
+    background-size: contain;
+}
+.main-content 
+{
+    
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(60,3em);
+    
+}
 .description
 {
    grid-column-start: 1; 
@@ -9,23 +29,27 @@
 
 .items-2 
 {
-     font-size: 2.6em;     
+     font-size: 2.6rem;     
 }
 .items-1 ,.items-3
 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 .bouton
 {
     grid-row-start: 9;
     grid-row-end: 13;
-    flex-direction: column;
-    gap: 1em;
-    font-size: 1.9em;
-    margin-top: 3.5em;
+    font-size: 1.5rem;
 }
 
+.bouton-1 , .bouton-2
+{
+    width: 9.5em;
+    text-align: center;
+    padding: 0.5em ;
+    border-radius: 1.2em;
+}
 .image2Phones
 {
     grid-column-start: 1;
@@ -36,7 +60,7 @@
 .imagePhoneGauche
 {
     grid-row-start: 22;
-    grid-row-end: 70;
+    grid-row-end: 50;
 }
 .contenu-one
 {
@@ -46,7 +70,7 @@
 }
 .titre
 {
-    font-size: 1.9em;
+    font-size: 1.9rem;
 }
 .contenu-1 ,.contenu-4 , .contenu-5
 {
@@ -55,27 +79,44 @@
 }
 .contenu-2 , .contenu-3
 {
-    font-size: 1.9em;
+    font-size: 1.9rem;
 }
 .imageLogin 
 {
-    grid-row-start: 10;
+    grid-row-start: 12;
     grid-row-end: 39;
     background-size: contain;
 }
 .imagePhoneDroite
 {
-    grid-row-start: 40;
-    grid-row-end: 58;
+    grid-row-start: 43;
+    grid-row-end: 60;
 }
 .imageDelices 
 {
+
     grid-row-start: 11;
-    grid-row-end: 25;
-    background-size: contain;
+    grid-row-end: 31;
+    background-size: cover;
+    grid-column-start:3 ;
+    grid-column-end:-1 ;
 }
 .footer
 {
-    grid-row-start: 60;
-    grid-row-end: 62;
+    grid-row-start: 62;
+    grid-row-end: 64;
+}
+.icon
+{
+    
+    grid-column-start: 5;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    display: grid;
+}
+.slogan
+{
+    grid-row-start: 64;
+    grid-row-end: 64;
+    font-size: 1rem;
 }
