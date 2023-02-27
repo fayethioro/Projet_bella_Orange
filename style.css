@@ -181,7 +181,7 @@ html
 }
 .bouton-2:hover
 {
-    border: solid 0.1em;
+    border: solid 0.1em ;
     background: var(--couleurOrange-color);
     color: var(--couleurBlanche-color);
 }
