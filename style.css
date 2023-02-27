@@ -168,10 +168,22 @@ html
 {
     background: var(--couleurOrange-color);
 }
+.bouton-1:hover
+{
+    border: solid 0.1em;
+    background: transparent;
+    color: var(--couleurOrange-color);
+}
 .bouton-2
 {
     border: solid 0.1em;
     background: transparent;
+}
+.bouton-2:hover
+{
+    border: solid 0.1em;
+    background: var(--couleurOrange-color);
+    color: var(--couleurBlanche-color);
 }
 .image2Phones
 {

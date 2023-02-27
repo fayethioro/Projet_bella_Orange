@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns:repeat(auto-fill,1fr);
     grid-template-rows: repeat(64, 3em);
-
 }
 .logo
 {
@@ -13,11 +12,9 @@
 }
 .main-content 
 {
-    
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: repeat(60,3em);
-    
 }
 .description
 {
@@ -25,8 +22,6 @@
    grid-column-end: 15;
    padding-left: 0.7em;
 }
-
-
 .items-2 
 {
      font-size: 2.6rem;     
@@ -75,7 +70,6 @@
 .contenu-1 ,.contenu-4 , .contenu-5
 {
     font-size: 1.2em;
-
 }
 .contenu-2 , .contenu-3
 {
@@ -94,7 +88,6 @@
 }
 .imageDelices 
 {
-
     grid-row-start: 11;
     grid-row-end: 31;
     background-size: cover;
@@ -108,7 +101,6 @@
 }
 .icon
 {
-    
     grid-column-start: 5;
     grid-column-end: 15;
     grid-row-start: 2;
