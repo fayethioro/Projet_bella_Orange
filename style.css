@@ -156,6 +156,7 @@ html
     gap: 3em;
     font-family: var(--fontBarlowSemiBold-font-family);
     font-size: 1.7em;
+    z-index: 100;
 }
 .bouton-1 , .bouton-2
 {
@@ -163,6 +164,7 @@ html
     text-align: center;
     padding: 0.5em ;
     border-radius: 1.2em;
+    z-index: 100;
 }
 .bouton-1
 {
